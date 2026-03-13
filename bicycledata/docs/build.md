@@ -167,7 +167,7 @@ sudo apt install -y git jq curl btop
 
 ## 3. Setup bicycleinit
 
-Clone the repository and create a virtual environment:
+Clone the repository and create a virtual environment. Make sure you include system-installed packages to avoid `BadPinFactory` and other errors.
 
 ```zsh
 git clone https://github.com/bicycledata/bicycleinit.git ~/bicycleinit
